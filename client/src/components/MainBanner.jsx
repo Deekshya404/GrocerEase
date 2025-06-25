@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const MainBanner = () => {
   return (
-    <div className='relative min-h-[60vh]'>
+    <div className='relative min-h-[60vh] mt-13'>
       {/* Background Images */}
-      <img src={assets.main_banner_bg} alt="banner" className='w-full hidden md:block' />
+      <img src={assets.main_banner_bg} alt="banner" className='w-full h-100 hidden md:block' />
       <img src={assets.main_banner_bg_sm} alt="banner" className='w-full md:hidden' />
 
       {/* Banner Text and Buttons */}
@@ -16,7 +16,7 @@ const MainBanner = () => {
         </h1>
 
         {/* Nepali Text */}
-        <h2 className="text-lg sm:text-xl font-medium text-gray-800 mb-6">
+        <h2 className="text-lg sm:text-2xl font-medium text-gray-800 mb-6">
           सजिलो छिटो भरपर्दो
         </h2>
 

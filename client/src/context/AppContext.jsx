@@ -14,6 +14,7 @@ export const AppContextProvider = ({ children }) => {
   const [showUserLogin, setShowUserLogin] = useState(false);
   const [products, setProducts] = useState([]);
   const [cartItems, setCartItems] = useState({});
+   const [searchQuery,setSearchQuery]= useState({});
 
   // Load products (placeholder for API)
   const fetchProducts = async () => {
@@ -54,7 +55,26 @@ export const AppContextProvider = ({ children }) => {
       toast.error("Item not in cart");
     }
   };
+  //Get cart items counted
+  const getCartCount = () =>{
+    let totalCount = 0;
+    for(const item in cartItems){
+      totalCount += cartItems[item];
+    }
+    return totalCount;
+  }
+//get cart amount
+const getCartAmount = () => {
+  let totalAmount = 0;
+  for (const itemId in cartItems) {
+    const itemInfo = products.find(product => product._id === itemId); // Fix 1: use _id instead of id
+    if (itemInfo && cartItems[itemId] > 0) {                           // Fix 2: check if itemInfo exists
+      totalAmount += itemInfo.offerPrice * cartItems[itemId];
+    }
+  }
+  return Math.floor(totalAmount * 100) / 100;
 
+}
   useEffect(() => {
     fetchProducts();
   }, []);
@@ -73,6 +93,10 @@ export const AppContextProvider = ({ children }) => {
     addToCart,
     updateCartItem,
     removeFromCart,
+    searchQuery,
+    setSearchQuery,
+    getCartAmount,
+    getCartCount,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

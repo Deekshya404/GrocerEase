@@ -1,4 +1,5 @@
-const NewsLetter = () => {
+
+/*const NewsLetter = () => {
     
     return (
         <div className="flex flex-col items-center justify-center text-center space-y-2 mt-18 pb-14">
@@ -21,3 +22,4 @@ const NewsLetter = () => {
     )
 }
 export default NewsLetter;
+*/

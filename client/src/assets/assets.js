@@ -22,7 +22,7 @@ import black_arrow_icon from "./black_arrow_icon.svg";
 import white_arrow_icon from "./white_arrow_icon.svg";
 import main_banner_bg from "./main_banner_bg.png";
 import main_banner_bg_sm from "./main_banner_bg_sm.png";
-import bottom_banner_image from "./bottom_banner_image.png";
+import bottom_banner_image from "./bottom_banner_image.jpg";
 import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
 import add_address_iamge from "./add_address_image.svg";
 import organic_vegitable_image from "./organic_vegitable_image.png";
@@ -792,9 +792,11 @@ export const dummyAddress = [
     firstName: "Deekshya",
     lastName: "Badal",
     email: "deekshyabadal@gmail.com",
-    city: "Kavrepalanchok",
+    city: "Dhulikhel",
     zipcode: 123456,
-    country: "IN",
+    province: "Bagmati",
+    country: "Nepal",
+    street:'28-kilo',
     phone: "9813703113",
   },
 ];

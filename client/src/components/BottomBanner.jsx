@@ -2,16 +2,16 @@ import { assets, features } from "../assets/assets";
 
 const BottomBanner = () => {
   return (
-    <div className="relative mt-24">
+    <div className="relative mt-20">
       {/* Desktop Image */}
-      <img src={assets.bottom_banner_image} alt="banner" className="w-full hidden md:block" />
+      <img src={assets.bottom_banner_image} alt="banner" className="w-full h-90 hidden md:block" />
 
       {/* Mobile Image */}
       <img src={assets.bottom_banner_image_sm} alt="banner" className="w-full block md:hidden" />
 
       <div className="absolute inset-0 flex flex-col items-center md:items-end md:justify-center pt-16 md:pt-0 md:pr-24">
         <div>
-          <h1 className="text-2xl md:text-3xl font-semibold text-[#4fbf8b] mb-6">
+          <h1 className="text-2xl md:text-3xl font-semibold text-black mb-6">
             Why to choose GrocerEase?
           </h1>
           {features.map((feature, index) => (

@@ -70,7 +70,25 @@ import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
 import waiwai_image from "./waiwai_image.png";
-import croissant_image from "./croissant_image.png"
+import croissant_image from "./croissant_image.png";
+import apple_image_2 from "./apple_image_2.png";
+import tomato_image_2 from "./tomato_image_2.png";
+import tomato_image_3 from "./tomato_image_3.png";
+import carrot_image_2 from "./carrot_image_2.png";
+import carrot_image_3 from "./carrot_image_3.png";
+import spinach_image_2 from "./spinach_image_2.png";
+import spinach_image_3 from "./spinach_image_3.png";
+import onion_image_2 from "./onion_image_2.png";
+import onion_image_3 from "./onion_image_3.png";
+import orange_image_2 from "./orange_image_2.png";
+import orange_image_3 from "./orange_image_3.png";
+import banana_image_2 from "./banana_image_2.png";
+import banana_image_3 from "./banana_image_3.png";
+import mango_image_2 from "./mango_image_2.png";
+import mango_image_3 from "./mango_image_3.png";
+import grapes_image_2 from "./grapes_image_2.png";
+import grapes_image_3 from "./grapes_image_3.png";
+import apple_image_3 from "./apple_image_3.png";
 
 export const assets = {
   logo,
@@ -226,7 +244,7 @@ export const dummyProducts = [
     category: "Vegetables",
     price: 80,
     offerPrice: 75,
-    image: [tomato_image],
+    image: [tomato_image, tomato_image_2, tomato_image_3],
     description: [
       "Juicy and ripe",
       "Rich in Vitamin C",
@@ -243,7 +261,7 @@ export const dummyProducts = [
     category: "Vegetables",
     price: 30,
     offerPrice: 28,
-    image: [carrot_image],
+    image: [carrot_image, carrot_image_2, carrot_image_3],
     description: [
       "Sweet and crunchy",
       "Good for eyesight",
@@ -259,7 +277,7 @@ export const dummyProducts = [
     category: "Vegetables",
     price: 35,
     offerPrice: 30,
-    image: [spinach_image_1],
+    image: [spinach_image_1,spinach_image_2,spinach_image_3],
     description: [
       "Rich in iron",
       "High in vitamins",
@@ -275,7 +293,7 @@ export const dummyProducts = [
     category: "Vegetables",
     price: 75,
     offerPrice: 72,
-    image: [onion_image_1],
+    image: [onion_image_1,onion_image_2,onion_image_3],
     description: [
       "Fresh and pungent",
       "Perfect for cooking",
@@ -293,7 +311,7 @@ export const dummyProducts = [
     category: "Fruits",
     price: 280,
     offerPrice: 250,
-    image: [apple_image],
+    image: [apple_image, apple_image_2,apple_image_3],
     description: [
       "Crisp and juicy",
       "Rich in fiber",
@@ -311,7 +329,7 @@ export const dummyProducts = [
     category: "Fruits",
     price: 110,
     offerPrice: 100,
-    image: [orange_image],
+    image: [orange_image, orange_image_2,orange_image_3],
     description: [
       "Juicy and sweet",
       "Rich in Vitamin C",
@@ -327,7 +345,7 @@ export const dummyProducts = [
     category: "Fruits",
     price: 170,
     offerPrice: 160,
-    image: [banana_image_1],
+    image: [banana_image_1,banana_image_2,banana_image_3],
     description: [
       "Sweet and ripe",
       "High in potassium",
@@ -344,7 +362,7 @@ export const dummyProducts = [
 
     price: 100,
     offerPrice: 80,
-    image: [mango_image_1],
+    image: [mango_image_1,mango_image_2,mango_image_3],
     description: [
       "Sweet and flavorful",
       "Perfect for smoothies and desserts",
@@ -360,7 +378,7 @@ export const dummyProducts = [
     category: "Fruits",
     price: 200,
     offerPrice: 190,
-    image: [grapes_image_1],
+    image: [grapes_image_1, grapes_image_2,grapes_image_3],
     description: [
       "Fresh and juicy",
       "Rich in antioxidants",

@@ -830,7 +830,7 @@ export const dummyOrders = [
         _id: "67e2589a8f87e63366786401",
       },
     ],
-    amount: 89,
+
     address: dummyAddress[0],
     status: "Order Placed",
     paymentType: "Online",
@@ -853,7 +853,7 @@ export const dummyOrders = [
         _id: "67e258798f87e633667863f4",
       },
     ],
-    amount: 43,
+ 
     address: dummyAddress[0],
     status: "Order Placed",
     paymentType: "COD",

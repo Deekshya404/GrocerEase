@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAppContext } from "../context/AppContext";
 import { assets, dummyAddress } from "../assets/assets";
+import toast from "react-hot-toast";
 
 const Cart = () => {
     const {
@@ -35,7 +36,7 @@ const Cart = () => {
 
     const placeOrder = async () => {
         // Order placement logic goes here
-        alert("Order Placed!");
+        toast.success("Order Placed!");
     };
 
     useEffect(() => {

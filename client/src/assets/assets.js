@@ -847,11 +847,7 @@ export const dummyOrders = [
         quantity: 1,
         _id: "67e258798f87e633667863f3",
       },
-      {
-        product: dummyProducts[1],
-        quantity: 1,
-        _id: "67e258798f87e633667863f4",
-      },
+      
     ],
  
     address: dummyAddress[0],
